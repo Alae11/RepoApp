@@ -9,7 +9,7 @@ import java.util.*;
 
 @org.springframework.stereotype.Service
 public class Service {
-
+    List<Data> items=new ArrayList<>();
     private static String url="https://api.github.com/search/repositories?q=created:>2020-09-05&sort=stars&order=desc&page=";
     private int i;
 
@@ -38,7 +38,7 @@ public class Service {
 
     private Set<String> languages(){
         List<String> list=new ArrayList<>();
-        getRepos().getItems().forEach(item->list.add(item.getLanguage()));
+        items.forEach(item->list.add(item.getLanguage()));
         Set<String> set = new HashSet<>(list);
         list.clear();
         list.addAll(set);
@@ -47,6 +47,7 @@ public class Service {
 
     public List<ResponseApi> getResponseApi(){
         List<Data> response=getRepos().getItems();
+        items=response;
         List<ResponseApi> responseApis=new ArrayList<>();
         languages().forEach(l->{
             List<Data> data=new ArrayList<>();
@@ -64,6 +65,7 @@ public class Service {
                     data.add(item);
                 }
             });
+
             res.setRepos(data);
             responseApis.add(res);
         });

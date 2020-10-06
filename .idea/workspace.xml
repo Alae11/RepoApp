@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="437c8ad8-304f-4289-ba99-6e54c7dc9a31" name="Default Changelist" comment="" />
+    <list default="true" id="437c8ad8-304f-4289-ba99-6e54c7dc9a31" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Service.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="16" />
+    <option name="myElementSize" value="15" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
@@ -22,10 +24,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/RepoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="272">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
                 <element signature="e#439#440#0" expanded="true" />
               </folding>
             </state>
@@ -50,14 +53,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/Service.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="71" column="1" lean-forward="true" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+            <state relative-caret-position="285">
+              <caret line="61" column="22" lean-forward="true" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#getRepos#0;class#Service#0" />
-                <element signature="method#sendRequest#0;class#Service#0" />
-                <element signature="method#numberofUsers#0;class#Service#0" />
-                <element signature="method#getResponseApi#0;class#Service#0" />
               </folding>
             </state>
           </provider>
@@ -66,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/ResponseApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            <state relative-caret-position="153">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,9 +101,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1123" />
-    <option name="y" value="55" />
-    <option name="width" value="910" />
+    <option name="x" value="541" />
+    <option name="y" value="18" />
+    <option name="width" value="1352" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -205,15 +204,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601832608290</updated>
-      <workItem from="1601832609542" duration="35600000" />
+      <workItem from="1601832609542" duration="38572000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35600000" />
+    <option name="totallyTimeSpent" value="38572000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="714" y="44" width="913" height="832" extended-state="0" />
+    <frame x="433" y="15" width="1081" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -222,10 +221,10 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30480656" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.029382957" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.09714286" />
+      <window_info anchor="bottom" id="Terminal" weight="0.66714287" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.3286119" />
@@ -234,7 +233,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.8286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.042857144" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3243626" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -245,7 +244,7 @@
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.14832215" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.05974535" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -290,7 +289,7 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/RepoApp$RepoAppApplication.ic" NAME="RepoAppApplication Coverage Results" MODIFIED="1602001717553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/RepoApp$RepoAppApplication.ic" NAME="RepoAppApplication Coverage Results" MODIFIED="1602023733793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/Repos.graphql">
@@ -402,46 +401,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/ResponseApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/RepoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.9.RELEASE/spring-web-5.2.9.RELEASE.jar!/org/springframework/http/MediaType.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="237" selection-start-line="237" selection-end-line="237" />
           <folding>
             <element signature="e#9939#9940#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/Response.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -489,16 +454,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/Service.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/Response.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="71" column="1" lean-forward="true" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getRepos#0;class#Service#0" />
-            <element signature="method#sendRequest#0;class#Service#0" />
-            <element signature="method#numberofUsers#0;class#Service#0" />
-            <element signature="method#getResponseApi#0;class#Service#0" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/ResponseApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/RepoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/demo/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="61" column="22" lean-forward="true" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
